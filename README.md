@@ -1,6 +1,6 @@
 # SBU_Open_Course_Checker
 
-Automate the process of checking courses with Open Seats in Stony Brok University and sending the updated information messages to whatsapp if open seats are available for your selected course list. <br />
+Automate the process of checking courses with Open Seats in Stony Brook University and sending the updated information messages to whatsapp if open seats are available for your selected course list. <br />
 
 The project doen't use any vulnerabilities, it just uses your credentials in your own browser and uses selenium to navigate to 'https://stonybrook.collegescheduler.com' page and uses the API to send notifications to WhatsApp. <br />
 
