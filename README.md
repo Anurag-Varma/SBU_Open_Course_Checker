@@ -52,6 +52,11 @@ whatsapp_group_id="xxxxxxxxxxxxxxxxxxxxx"
     The screen should be active all the time and mouse pointer should not be in any notebook cells, click it somewhere else outside the cells and in jupyter notebook.
 
 
+## Output:
+
+<img width="332" alt="image" src="https://github.com/Anurag-Varma/SBU_Open_Course_Checker/assets/62068859/813283a0-2eda-4a90-b779-afaa4ee57fa6">
+
+
 
 ## Explaination Selenium:
 
