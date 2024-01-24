@@ -14,7 +14,8 @@ It doesn't store any of your data, they are stored in your browser and in cookie
 2) Login into solar with your details and authenticate in duo to keep it active for few days.
 3) Login into WhatsApp Web in chrome browser.
 4) Create an environment(I prefer with Anaconda) and install jupyter notebook if not present.
-5) Install the below libraries (Present in Cell 1 of notebook)
+5) Download the jupyter notebook file from this repo and follow the below steps:
+6) Install the below libraries (Present in Cell 1 of notebook)
 ```
 # Install these libraries
 !pip install selenium
@@ -22,7 +23,7 @@ It doesn't store any of your data, they are stored in your browser and in cookie
 !pip install pyautogui
 !pip install keyboard
 ```
-6) Replace all the below thimgs with your respective details (Present in Cell 3 of notebook)
+7) Replace all the below thimgs with your respective details (Present in Cell 3 of notebook)
 ```
 # Replace with the course of your choice in capital letters - string format.
 #Eg: course="CSE" or course="AMS", or others, etc.
@@ -44,10 +45,10 @@ sbu_password="YourPassword"
 # Then use whatsapp_group_id="abcdefxxxxxxxxxxxwxyz" - string format
 whatsapp_group_id="xxxxxxxxxxxxxxxxxxxxx"
 ```
-7) Optional, not required - [Only needed in case of whatsapp web messages are being typed in group chat but not being sent.] <br /> <br />
+8) Optional, not required - [Only needed in case of whatsapp web messages are being typed in group chat but not being sent.] <br /> <br />
    Change X,Y values in pyautogui.click(1475, 645), if the message is automatically typed in whatsaspp group chat, but the text is not getting submitted. (Present in Cell 5 of notebook). <br />
    Find the approx coordinates of submit button using mouse coordinate extension - https://chrome.google.com/webstore/detail/mouse-coordinates/mfohnjojhopfcahiddmeljeholnciakl
-8) Close any unnecessary chrome tabs, Now run all the 5 cells and and keep the laptop aside. <br />
+9) Close any unnecessary chrome tabs, Now run all the 5 cells and and keep the laptop aside. <br />
     The screen should be active all the time and mouse pointer should not be in any notebook cells, click it somewhere else outside the cells and in jupyter notebook.
 
 
